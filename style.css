@@ -1,45 +1,34 @@
 
 body {
-    background-color: #7ABA78;
+    background-color: #F5F5F5;
 }
 
 .banner {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     padding-right: 1rem;
-    background-color: #F6E9B2;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #48CFCB;
     border-radius: 1rem;
 }
 
-.banner-left {
-    padding-left: 1rem;
-}
-
-.banner-center {
-    flex-grow: 8;
-}
-
-.banner-right {
-    
-}
-
-button {
+.banner-button {
     transition-duration: 0.4s;
-    background-color: #F6E9B2;
-    border: None;
-    padding: 10px 20px
+    background-color: #48CFCB;
+    color: #424242;
+    font-weight: 700;
+    text-decoration: none;
+
 }
 
-button:hover {
-    background-color: #F3CA52;
+.banner-button:hover {
+    background-color: #229799;
+    color: #F5F5F5;
     border-radius: 1rem;
 }
 
-.text-banner {
-   color: gray;
-   text-emphasis: bold;
 
-}
 
 
 .dancing-script-h1 {
@@ -59,8 +48,28 @@ button:hover {
 
 .title-text {
     text-align:center;
-    text-shadow: 2px 3px dimgray;
+    text-shadow: 2px 3px #42424220;
     font-weight: 1000px;
+    color: #424242
     
 }
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.profile-img {
+    width: 10rem;
+    border-radius: 1rem;
+    border-color: #424242;
+    border-style: solid;
+}
+
+
 
