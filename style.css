@@ -1,0 +1,66 @@
+
+body {
+    background-color: #7ABA78;
+}
+
+.banner {
+    display: flex;
+    justify-content: left;
+    padding-right: 1rem;
+    background-color: #F6E9B2;
+    border-radius: 1rem;
+}
+
+.banner-left {
+    padding-left: 1rem;
+}
+
+.banner-center {
+    flex-grow: 8;
+}
+
+.banner-right {
+    
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: #F6E9B2;
+    border: None;
+    padding: 10px 20px
+}
+
+button:hover {
+    background-color: #F3CA52;
+    border-radius: 1rem;
+}
+
+.text-banner {
+   color: gray;
+   text-emphasis: bold;
+
+}
+
+
+.dancing-script-h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.original-surfer-regular {
+    color: #0A6847;
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 5rem;
+    font-style: normal;
+
+}
+
+.title-text {
+    text-align:center;
+    text-shadow: 2px 3px dimgray;
+    font-weight: 1000px;
+    
+}
+
