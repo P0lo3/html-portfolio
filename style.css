@@ -1,0 +1,64 @@
+
+body {
+    background-color: #F5F5F5;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #48CFCB;
+    border-radius: 1rem;
+}
+
+.banner-button {
+    transition-duration: 0.4s;
+    background-color: #48CFCB;
+    color: #424242;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.banner-button:hover {
+    background-color: #229799;
+    color: #F5F5F5;
+    border-radius: 1rem;
+}
+
+.dancing-script-h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title-text {
+    text-align:center;
+    text-shadow: 2px 3px #42424220;
+    font-weight: 1000px;
+    color: #424242
+    
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.profile-img {
+    width: 10rem;
+    border-radius: 1rem;
+    border-color: #424242;
+    border-style: solid;
+}
+
+
+
